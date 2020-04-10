@@ -1,0 +1,23 @@
+{
+    "name": "cjyzwg/gitcomposer",
+    "description": "for composer package",
+    "type": "project",
+    "require": {
+        "php": ">=5.6.3"
+    },
+    "require-dev": {
+        "php": ">=5.6.3"
+    },
+    "license": "MID",
+    "authors": [
+        {
+            "name": "cjyzwg",
+            "email": "1044035278@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "Tools\\":"src/Tools"
+        }
+    }
+}
